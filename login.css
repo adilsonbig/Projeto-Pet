@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Courgette&family=Oleo+Script+Swash+Caps&family=Poppins:wght@600&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Courgette&family=Oleo+Script+Swash+Caps&family=Poppins:wght@600&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Courgette&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Poppins:wght@600&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+/*reader-index */
+span{
+    padding-left: 20px;
+    position: relative;
+    bottom: -5px;
+    font-size: 30px;
+    font-family: Abril Fatface;
+    color: DarkGreen;
+    
+}
+nav{
+    padding-right: 20px;
+    border: 1px solid black;
+    height: 40px;
+    background: greenyellow;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    position: relative;
+    top: -35px;
+    
+}
+
+nav ul li{
+    
+}
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: green;
+}
+nav ul li a:hover{
+    color: Goldenrod;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    bottom: -5px;
+    
+}
+.social-media img{
+  width: 30px;
+  position: relative;
+  top: -80px;
+}
+/* reader-index */
+
+/* main-index*/
+#pictures{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -40px;
+    
+}
+#dog{
+    width: 200px;
+     height: 200px;
+     border: 1px solid black;
+     background: white;
+     border: 3px solid yellow;
+     background: LimeGreen;
+}
+#dog img{
+    width: 200px;
+    position: relative;
+    top: -44px;
+    left: -20px;
+    
+}
+#cat{
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 3px solid yellow;
+    background: LimeGreen;
+}
+#cat img{
+   width: 170px;
+   position: relative;
+   top: -50px;
+   right: -15px;
+}
+#racao{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: white;
+    border: 3px solid yellow;
+    background: LimeGreen;
+}
+
+
+#racao img{
+    width: 200px;
+    position: relative;
+    top: -65px;
+}
+#presentation{
+   display: flex;
+   justify-content: center; 
+}
+#presentation p{
+    font: normal 50pt Anton;
+    color: white;
+}
+/* main-index */
+
+/* footer-index */
+#help{
+     
+}
+#help ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    
+}
+#help  ul li{
+    
+    padding: 8px;
+    text-decoration: none;
+    
+}
+#help ul li a{
+color: white;
+font-size: 20px;
+text-decoration: none;
+
+}
+#help ul li a:hover{
+
+color: yellow;
+}
+/* footer-index */
+
+/* register*/
+#bloc{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#container{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black ;
+    align-items: center;
+    background: DarkGreen;
+    margin-top: 30px;
+    
+}
+#container{
+   
+ border-radius: 5px;   
+}
+#out{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: -10px;
+}   
+#out a{
+padding: 5px;
+position: relative;
+right: -30px;
+color: white;
+text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: yellow;
+   
+}
+h2 a{
+    color: yellow;
+}
+#fig1_user{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: relative;
+    right: -60px;
+    border-radius: 50px;
+}
+#fig1_user img{
+    width: 45px;
+    height: 60px;
+}
+#form{
+    padding-right: 3px;
+   
+}
+input{
+    border-radius: 10px;
+}
+label{
+    padding: 5px;
+}
+label input #form{
+    align-items: center;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: greenyellow;
+}
+h2{
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+h2 a:hover{
+    color: LawnGreen;
+}
+#btn, h2{
+    padding-top: 20px;
+    text-align: center;
+}
+#media{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -42px;
+    margin-bottom: 0px;
+    
+}
+#media img{
+    width: 20px;
+    padding: 10px;
+}
+
+ /* register */
+
+ /* login */
+ #bloc_int{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black ;
+    align-items: center;
+    background: DarkGreen;
+    margin-top: 30px;
+ }
+ #out1{
+     display: flex;
+     justify-content: right;
+ }
+ #out1 a{
+     color: white;
+     position: relative;
+     top: -30px;
+     right: -30px;
+     text-decoration: none;
+ }
+ #fig_user{
+ position: relative;
+ top: -10px;
+ right: -63px;
+ width: 60px;
+ height: 60px;
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50px;
+ background: white;
+ }
+ #fig_user img{
+     width: 55px;
+     height: 55px;
+ }
+ label{
+     color: yellow;
+     text-align: center;
+     padding-left: 60px;
+ }
+ input {
+    
+ }
+ #btn2{
+     padding-top: 15px;
+     display: flex;
+     justify-content: center;
+     
+ }
+ h3{
+     color: yellow;
+     text-align: center;
+     font-size: 30px;
+ }
+
+
+
+
